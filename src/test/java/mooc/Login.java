@@ -12,7 +12,7 @@ public class Login {
 		driver = new ChromeDriver();
 		driver.get("https://www.imooc.com");
 		driver.manage().window().maximize();
-	    //try a bad boy and a girl named ada
+	    //try a bad boy and a girl named ada jaja
 	}
 	public void loginScript() throws Exception {
     Thread.sleep(2000);
