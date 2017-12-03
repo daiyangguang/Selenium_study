@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNG.TestHelloWorld">
+      <class name="TestNG.day03.TestEmployeeDetails">
         <methods>
-          <include name="f"/>
+          <include name="testCalculateYearlySalary"/>
+          <include name="testCalculateAppriasal"/>
         </methods>
-      </class> <!-- TestNG.TestHelloWorld -->
+      </class> <!-- TestNG.day03.TestEmployeeDetails -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

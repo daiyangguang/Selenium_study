@@ -1,71 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestAll" duration-ms="52" started-at="2017-12-03T09:39:56Z" finished-at="2017-12-03T09:39:56Z">
+  <suite name="Suite1" duration-ms="27" started-at="2017-12-03T13:27:38Z" finished-at="2017-12-03T13:27:38Z">
     <groups>
     </groups>
-    <test name="case1" duration-ms="23" started-at="2017-12-03T09:39:56Z" finished-at="2017-12-03T09:39:56Z">
-      <class name="TestNG.DBConfig">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.DBConfig@724af044]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
+    <test name="test1" duration-ms="27" started-at="2017-12-03T13:27:38Z" finished-at="2017-12-03T13:27:38Z">
+      <class name="TestNG.TestEmployeeDetails">
+        <test-method status="PASS" signature="testCalculateAppriasal()[pri:0, instance:TestNG.TestEmployeeDetails@4f933fd1]" name="testCalculateAppriasal" duration-ms="9" started-at="2017-12-03T21:27:38Z" finished-at="2017-12-03T21:27:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.DBConfig@724af044]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
+        </test-method> <!-- testCalculateAppriasal -->
+        <test-method status="PASS" signature="testCalculateYearlySalary()[pri:0, instance:TestNG.TestEmployeeDetails@4f933fd1]" name="testCalculateYearlySalary" duration-ms="1" started-at="2017-12-03T21:27:38Z" finished-at="2017-12-03T21:27:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.DBConfig -->
-      <class name="TestNG.TestDBConnection">
-        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:TestNG.TestDBConnection@6767c1fc]" name="runOtherTest1" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest1 -->
-        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:TestNG.TestDBConnection@6767c1fc]" name="runOtherTest2" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest2 -->
-      </class> <!-- TestNG.TestDBConnection -->
-      <class name="TestNG.TestConfiguration">
-        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:TestNG.TestConfiguration@4678c730]" name="runOtherTest1" duration-ms="3" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest1 -->
-        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:TestNG.TestConfiguration@4678c730]" name="runOtherTest2" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest2 -->
-      </class> <!-- TestNG.TestConfiguration -->
-    </test> <!-- case1 -->
-    <test name="case2" duration-ms="4" started-at="2017-12-03T09:39:56Z" finished-at="2017-12-03T09:39:56Z">
-      <class name="TestNG.DBConfig">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.DBConfig@47c62251]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.DBConfig@47c62251]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.DBConfig@47c62251]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.DBConfig@47c62251]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- TestNG.DBConfig -->
-      <class name="TestNG.TestDBConnection">
-        <test-method status="PASS" signature="runOtherTest1()[pri:0, instance:TestNG.TestDBConnection@3e6fa38a]" name="runOtherTest1" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest1 -->
-        <test-method status="PASS" signature="runOtherTest2()[pri:0, instance:TestNG.TestDBConnection@3e6fa38a]" name="runOtherTest2" duration-ms="1" started-at="2017-12-03T17:39:56Z" finished-at="2017-12-03T17:39:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runOtherTest2 -->
-      </class> <!-- TestNG.TestDBConnection -->
-    </test> <!-- case2 -->
-  </suite> <!-- TestAll -->
+        </test-method> <!-- testCalculateYearlySalary -->
+      </class> <!-- TestNG.TestEmployeeDetails -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
