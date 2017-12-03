@@ -20,6 +20,13 @@ public class MessageUtil {
 		return message;
 	}
 	
+	//给打印信息加个hi
+	public String salutationMessage() {
+		message = "hi" + message;
+		System.out.println(message);
+		return message;
+	}
+	
 	
 	
 	
