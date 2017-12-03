@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNG.day03.TestEmployeeDetails">
+      <class name="TestNG.IgnoreTest">
         <methods>
-          <include name="testCalculateYearlySalary"/>
-          <include name="testCalculateAppriasal"/>
+          <include name="testSalutationMessage"/>
         </methods>
-      </class> <!-- TestNG.day03.TestEmployeeDetails -->
+      </class> <!-- TestNG.IgnoreTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
