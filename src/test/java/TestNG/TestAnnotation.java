@@ -15,11 +15,11 @@ public class TestAnnotation {
 	}
 	@Test
 	public void test() {
-		System.out.println("@Test");
+		System.out.println("@Test----first");
 	}
 	@Test
 	public void test001() {
-		System.out.println("@Test001");
+		System.out.println("@Test------second");
 	}
 	@BeforeClass
 	public void beforeClass() {

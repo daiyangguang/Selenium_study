@@ -9,7 +9,7 @@ public class TestHelloWorld {
   public void f() {
 	  RandomEmailGenerator obj = new RandomEmailGenerator();
 	  String email = obj.generator();
-	  
+//	  System.out.println(email);
 	  Assert.assertNotNull(email);
 	  Assert.assertEquals(email, "daiyangguang7@163.com");
   }
