@@ -27,6 +27,13 @@ public class MessageUtil {
 		return message;
 	}
 	
+	//将www.添加到 message
+	public String exitMessage() {
+		message = "www." + message;
+		System.out.println(message);
+		return message;
+	}
+	
 	
 	
 	
