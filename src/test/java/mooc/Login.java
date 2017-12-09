@@ -29,7 +29,6 @@ public class Login {
 	driver.findElement(By.className("btn-red")).click();
 	
 	
-	
 	}
 	public static void main(String[] args) throws Exception {
 		Login test = new Login();

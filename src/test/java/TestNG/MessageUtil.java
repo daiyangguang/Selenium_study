@@ -17,8 +17,8 @@ public class MessageUtil {
 	//打印信息
 	public String printMessage() {
 		System.out.println(message);
-		int a = 0;
-		int b = 1 / a;
+//		int a = 0;
+//		int b = 1 / a;
 				
 		return message;
 	}

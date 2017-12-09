@@ -11,11 +11,15 @@ public class ExpectedExceptionTest {
 	public void testPrintMessage() {
 		System.out.println("Inside testPrintMessage()");
 		messageUtil.printMessage();
-	}
-	
+	}	
+	@Test
 	public void testSalutationMessage() {
 		System.out.println("Inside testSalutationMessage()");
 		message = "hi" + message;
 		Assert.assertEquals(message, messageUtil.salutationMessage());
 	}
+	
+	
+	
 }
+
