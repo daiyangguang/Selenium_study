@@ -2,23 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="25" started-at="2017-12-09T07:10:01Z" finished-at="2017-12-09T07:10:01Z">
+  <suite name="Converted JUnit suite" duration-ms="207" started-at="2017-12-09T07:24:07Z" finished-at="2017-12-09T07:24:08Z">
     <groups>
     </groups>
-    <test name="test1" duration-ms="25" started-at="2017-12-09T07:10:01Z" finished-at="2017-12-09T07:10:01Z">
-      <class name="TestNG.ParamTestWithDataProvider2">
-        <test-method status="PASS" signature="testMethod(TestNG.Bean)[pri:0, instance:TestNG.ParamTestWithDataProvider2@2a2d45ba]" name="testMethod" duration-ms="6" started-at="2017-12-09T15:10:01Z" data-provider="test1" finished-at="2017-12-09T15:10:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TestNG.Bean@66480dd7]]>
-              </value>
-            </param>
-          </params>
+    <test name="JUnitTests" duration-ms="207" started-at="2017-12-09T07:24:07Z" finished-at="2017-12-09T07:24:08Z">
+      <class name="TestNG.TestJunit">
+        <test-method status="PASS" signature="testAdd()" name="testAdd" duration-ms="18" started-at="2017-12-09T15:24:08Z" finished-at="2017-12-09T15:24:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-      </class> <!-- TestNG.ParamTestWithDataProvider2 -->
-    </test> <!-- test1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- testAdd -->
+      </class> <!-- TestNG.TestJunit -->
+    </test> <!-- JUnitTests -->
+  </suite> <!-- Converted JUnit suite -->
 </testng-results>
