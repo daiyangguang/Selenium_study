@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Converted JUnit suite" duration-ms="207" started-at="2017-12-09T07:24:07Z" finished-at="2017-12-09T07:24:08Z">
+  <suite name="Converted JUnit suite" duration-ms="320" started-at="2017-12-12T00:11:35Z" finished-at="2017-12-12T00:11:36Z">
     <groups>
     </groups>
-    <test name="JUnitTests" duration-ms="207" started-at="2017-12-09T07:24:07Z" finished-at="2017-12-09T07:24:08Z">
+    <test name="JUnitTests" duration-ms="320" started-at="2017-12-12T00:11:35Z" finished-at="2017-12-12T00:11:36Z">
       <class name="TestNG.TestJunit">
-        <test-method status="PASS" signature="testAdd()" name="testAdd" duration-ms="18" started-at="2017-12-09T15:24:08Z" finished-at="2017-12-09T15:24:08Z">
+        <test-method status="PASS" signature="testAdd()" name="testAdd" duration-ms="56" started-at="2017-12-12T08:11:35Z" finished-at="2017-12-12T08:11:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd -->

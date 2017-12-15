@@ -6,14 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Login {
-	WebDriver driver;
-	public void initDriver() {
-		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.get("https://www.imooc.com");
-		driver.manage().window().maximize();
-	    //try a bad boy and a girl named ada jaja
-	}
+		WebDriver driver;
+		public void initDriver() {
+			System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+			driver = new ChromeDriver();
+			driver.get("https://www.imooc.com");
+			driver.manage().window().maximize();
+		    //try a bad boy and a girl named ada jaja
+		}
 	public void loginScript() throws Exception {
     Thread.sleep(2000);
 	driver.findElement(By.id("js-signin-btn")).click();
