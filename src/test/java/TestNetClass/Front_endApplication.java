@@ -8,7 +8,7 @@ public class Front_endApplication {
 		public void initDriver() {
 			System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
 			driver = new ChromeDriver();
-			driver.get("https://www.dadaabc.com/");
+			driver.get("");
 			driver.manage().window().maximize();
 		    //try a bad boy and a girl named ada jaja
 		}
