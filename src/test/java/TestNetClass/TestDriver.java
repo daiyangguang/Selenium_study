@@ -14,12 +14,12 @@ public class TestDriver {
 	public TestDriver() {
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://www.dadaabc.com/");
+		driver.get("");
 		driver.manage().window().maximize();
 	}
 	
 	/**
-	 * 失败截图，（登录失败or账户信息不对的失败）
+	 * 澶辫触鎴浘锛岋紙鐧诲綍澶辫触or璐︽埛淇℃伅涓嶅鐨勫け璐ワ級
 	 * @throws IOException 
 	 */
 	public void shotScreen() throws IOException {
@@ -28,9 +28,9 @@ public class TestDriver {
 		String currentPath = System.getProperty("user.dir");
 		String picLoaction = currentPath + "\\src\\dada\\" + picName + ".png";
 		System.out.println(picLoaction);
-		//截图方法 以文件的方式保存
+		//鎴浘鏂规硶 浠ユ枃浠剁殑鏂瑰紡淇濆瓨
 		File shotScreen = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		//文件命名----源图片复制到目标位置
+		//鏂囦欢鍛藉悕----婧愬浘鐗囧鍒跺埌鐩爣浣嶇疆
 		try {
 			FileUtils.copyFile(shotScreen, new File(picLoaction));
 		} catch (Exception e) {
