@@ -23,7 +23,7 @@ public class AutoLogin extends TestDriver {
 //	public void initDirver() {
 //	System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32\\chromedriver.exe");
 //	driver = new ChromeDriver();
-//	driver.get("https://www.dadaabc.com/");
+//	driver.get("");
 //	driver.manage().window().maximize();
 		
 //	}
